@@ -57,7 +57,6 @@ levels(meanStandardDeviationData$activity) <- c("walking","walkingUpstairs","wal
 ###################################################################
 
 ## Clean up names to accurately reflect what they are 
-##make.names(names, unique = FALSE, allow_ = TRUE)
 savedColumnNames <- colnames(meanStandardDeviationData)
 colnames(meanStandardDeviationData) <- gsub("\\-","",gsub("\\-mean\\(\\)","Mean", gsub("\\-std\\(\\)","Std", savedColumnNames)))
 
