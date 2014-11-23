@@ -1,7 +1,7 @@
+## REMINDER.  Set your working directory where the UCI HAR Dataset archive was expanded.
+
 ## You should create one R script called run_analysis.R that does the following. 
 library(sqldf)
-
-setwd("~/Documents/Classes/GetCleanData/Project")
 
 ## Load common data
 activities <- read.table("UCI HAR Dataset/activity_labels.txt")
